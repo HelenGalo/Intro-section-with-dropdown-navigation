@@ -28,14 +28,10 @@ Users should be able to:
 - View the optimal layout for the content depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Screenshot
-
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/HmadyGalo/Intro-section-with-dropdown-navigation.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
+- Live Site URL: [Add live site URL here]()
 
 ### Built with
 
