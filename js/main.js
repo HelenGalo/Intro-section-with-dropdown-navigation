@@ -16,12 +16,12 @@ function activeSubMenu (event) {
   const arrowImg= actual.querySelector("a .arrow");
 
   subMenu.classList.toggle("active");
-  arrowImg.setAttribute("src", "./assets/images/icon-arrow-up.svg");
+  arrowImg.setAttribute("src", "./public/images/icon-arrow-up.svg");
 
 
 
   if (!active)
-    arrowImg.setAttribute("src", "./assets/images/icon-arrow-down.svg");
+    arrowImg.setAttribute("src", "./public/images//icon-arrow-down.svg");
 }
 
 lista.forEach((menuItem) => {
