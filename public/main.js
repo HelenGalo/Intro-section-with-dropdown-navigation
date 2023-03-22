@@ -1,4 +1,4 @@
-import '../public/style/style.css';
+import './style/style.css';
 //Declaracion de variables
 const lista = document.querySelectorAll(".sub-menu");
 const burger = document.getElementById("burger-menu");
@@ -16,12 +16,12 @@ function activeSubMenu (event) {
   const arrowImg= actual.querySelector("a .arrow");
 
   subMenu.classList.toggle("active");
-  arrowImg.setAttribute("src", "../public/images/icon-arrow-down.svg");
+  arrowImg.setAttribute("src", "./public/images/icon-arrow-down.svg");
 
 
 
   if (!active)
-    arrowImg.setAttribute("src", "../public/images/icon-arrow-down.svg");
+    arrowImg.setAttribute("src", "./public/images/icon-arrow-down.svg");
 }
 
 lista.forEach((menuItem) => {
