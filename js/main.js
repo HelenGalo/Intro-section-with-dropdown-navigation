@@ -1,4 +1,4 @@
-import '../assets/style/style.css';
+import './public/style/style.css';
 //Declaracion de variables
 const lista = document.querySelectorAll(".sub-menu");
 const burger = document.getElementById("burger-menu");
